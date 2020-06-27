@@ -1,3 +1,8 @@
+Precondition :
+
+1) Maven should be installed
+2) Chrome version : 83
+
 Steps to build and run this project :
 
 1) Download this project
