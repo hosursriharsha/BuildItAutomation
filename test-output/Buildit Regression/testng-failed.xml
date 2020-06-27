@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Buildit Regression]" parallel="tests">
+  <test thread-count="5" name="Regressions(failed)" parallel="tests">
+    <classes>
+      <class name="com.buildit.Base.Runner">
+        <methods>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.buildit.Base.Runner -->
+    </classes>
+  </test> <!-- Regressions(failed) -->
+</suite> <!-- Failed suite [Buildit Regression] -->
